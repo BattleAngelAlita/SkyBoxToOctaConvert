@@ -37,11 +37,11 @@ public class SkyToOctaConvert : EditorWindow
 	private int   size = 1024;
 
 	private bool  hdr = true;
-	private bool  tonemap = true;
+	private bool  tonemap = false;
 	private float exposure = 0.0f;
 	private float tonemapShoulder = 1.06f;
 
-	private bool  blueNoise = true;
+	private bool  blueNoise = false;
 	private float blueNoiseIntensity = 0.5f;
 
 	private Material mat;
